@@ -36,8 +36,9 @@ function solution(input, markers) {
 
 ## Education
 
-* **Chemistry, Master** Dnipro National University - _09/2001 - 07/2006_
-* **PC Operator** Lyceum of Information Technologies (LIT) - _09/1998 - 06/2001_
+* **Frontend Developer** - EPAM R&D Lab - _12/2021 - 10/2022_
+* **Chemistry, Master** - Dnipro National University - _09/2001 - 07/2006_
+* **PC Operator** - Lyceum of Information Technologies (LIT) - _09/1998 - 06/2001_
 
 ## Languages
 
