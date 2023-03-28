@@ -41,12 +41,11 @@
     </ul>
 
     <h3>Code example:</h3>
-    <pre>
-    function solution(input, markers) {
-        markers = markers.map((item) => item.replace(/[-\/\\^$*+?.()|[\]{}]/g, "\\$&"));
-        return input.replace(new RegExp("\\s+?(" + markers.join("|") + ").+", "g"), "");
-    }
-    </pre>
+    <pre><span class="pl-k">function</span> <span class="pl-en">solution</span><span class="pl-kos">(</span><span class="pl-s1">input</span><span class="pl-kos">,</span> <span class="pl-s1">markers</span><span class="pl-kos">)</span> <span class="pl-kos">{</span>
+        <span class="pl-s1">markers</span> <span class="pl-c1">=</span> <span class="pl-s1">markers</span><span class="pl-kos">.</span><span class="pl-en">map</span><span class="pl-kos">(</span><span class="pl-kos">(</span><span class="pl-s1">item</span><span class="pl-kos">)</span> <span class="pl-c1">=&gt;</span> <span class="pl-s1">item</span><span class="pl-kos">.</span><span class="pl-en">replace</span><span class="pl-kos">(</span><span class="pl-pds"><span class="pl-c1">/</span><span class="pl-kos">[</span>-<span class="pl-cce">\/</span><span class="pl-cce">\\</span>^$*+?.()|[<span class="pl-cce">\]</span>{}<span class="pl-kos">]</span><span class="pl-c1">/</span>g</span><span class="pl-kos">,</span> <span class="pl-s">"\\$&amp;"</span><span class="pl-kos">)</span><span class="pl-kos">)</span><span class="pl-kos">;</span>
+        <span class="pl-k">return</span> <span class="pl-s1">input</span><span class="pl-kos">.</span><span class="pl-en">replace</span><span class="pl-kos">(</span><span class="pl-k">new</span> <span class="pl-v">RegExp</span><span class="pl-kos">(</span><span class="pl-s">"\\s+?("</span> <span class="pl-c1">+</span> <span class="pl-s1">markers</span><span class="pl-kos">.</span><span class="pl-en">join</span><span class="pl-kos">(</span><span class="pl-s">"|"</span><span class="pl-kos">)</span> <span class="pl-c1">+</span> <span class="pl-s">").+"</span><span class="pl-kos">,</span> <span class="pl-s">"g"</span><span class="pl-kos">)</span><span class="pl-kos">,</span> <span class="pl-s">""</span><span class="pl-kos">)</span><span class="pl-kos">;</span>
+      <span class="pl-kos">}</span></pre>
+
     <h3>Education</h3>
     <p>
         Frontend Developer - EPAM R&D Lab - 12/2021 - 10/2022<br>
