@@ -32,3 +32,43 @@ a {
     width: 500;
     text-decoration: none;
 }
+
+.pl-en {
+    font-weight: 500;
+    color: #123456;
+}
+
+.pl-kos {
+    font-weight: 700;
+    color: #523856;
+}
+
+.pl-s1 {
+    font-weight: 700;
+    color: #629456;
+}
+
+.pl-c1 {
+    font-weight: 700;
+    color: #123456;
+}
+
+.pl-pds {
+    font-weight: 700;
+    color: #923456;
+}
+
+.pl-cce {
+    font-weight: 700;
+    color: #323496;
+}
+
+.pl-cce {
+    font-weight: 700;
+    color: #623456;
+}
+
+.pl-v {
+    font-weight: 700;
+    color: #827456;
+}
